@@ -1,0 +1,686 @@
+/* color coral:#ff7f50*/
+/* color de fuente :rosa:#DC143C*/
+/* color dark salmon:#E9967A*/
+/*color rosa viejo:#FFB6C1*/
+/*#708090 */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+}
+/* agregamos fondo color rosa a toda la pagina*/
+.body__index{
+    background-color: burlywood;
+    
+
+   
+}
+/* cabecera es la clase de heart donde le asigamos un color,ancho, alto,distancia entre los elementos*/
+.cabecera{
+   background-image: url(multimedia/imagenes/otno.jpg!d);
+    width:100%;
+    height: 250px;
+    border: solid black 1px;
+    object-fit: cover;
+}
+.inicio:hover{
+    font-size: 30px;
+    
+}
+
+
+/*logo le vamos a asignar un ancho(width)un padding left(ditancia desde la izquierda,y altura(heigt)*/
+.logo{
+    width:20%;
+    padding:0 auto;
+    height:95%;
+    border: solid black 1px;
+    margin-left: 7%;
+    
+}
+/* vamos a designar a la lista del navegador, estilos"list-style(sacar subrayado e item) tipografia(font-family)y tamagno de la letra( font-weight*/
+.buscador{
+     border: solid black 1px;
+     background-color:rgba(218, 99, 56, 0.779);
+     margin-left: 5;
+     margin-top:0.7%
+}
+.navegador__index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+}
+.buscador li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    font-weight:600;
+}
+.buscador ul{
+     text-align:left;
+     padding-top: 2%;
+    }
+/* siempre poner el padre que seria buscador + la etiqueta que vamos a cambiar en este caso la lista (li)*/
+/* a la letra le designamos colo,sacarle el subrayado, tipografia, tamano y grosor*/
+ .buscador li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+.sub__index{
+    color:black;
+    font-size: 40px; 
+    font-family:sans-serif;
+    height: auto;
+    padding-top: 15%;
+    padding-left: 28%;
+    padding-bottom: 2%;
+    font-weight:400;
+    
+}
+
+h2{
+    color:black;
+    font-size: 40px; 
+    font-family:sans-serif;
+    height: auto;
+    padding-top: 15%;
+    padding-left: 28%;
+    padding-bottom: 2%;
+    font-weight:400;
+   
+}
+.video{
+ border:solid black 1px;
+}
+.videomo{
+    padding-left: 30%;
+}
+section .videomo{
+    display: inline;
+    margin: 10px;
+    height: 125px;
+    padding: 0px;
+    margin-top: 10px;
+    padding-left: 2%;
+}
+/*modificar los link dandole color tipografia ,tamanos y posiscion*/
+.boton .segundo{
+    padding-left: 88%;
+    color: black;
+    text-decoration: none;
+}
+.parrafo{
+    color:black;
+    width: 100%;
+    padding-top: 2%;
+    font-size: 20px;
+    margin-left: 0.5%;
+}
+.galeria{ 
+    height: auto;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.galeria .foto img{
+    margin: 20px;
+    height:250px;
+    padding: 0px;
+    border:solid black 2px;
+    margin-top: 10px;
+    display:inline;
+}
+.segundo{
+    color: black;
+    text-decoration:none;
+    padding-top: 2%;
+    padding-left: 10%;
+
+}
+.foto a{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left:3%;
+}
+.sociales{
+    padding-top: 30%;
+}
+.sociales a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin-top:0.5%;
+    padding-left: 3%;
+    
+}
+.subir{
+    padding-top: 5%;
+    padding-left: 80%;
+}
+.subir.segundo a{
+    padding-top: 10%;
+    padding-right: 50%;
+}
+/* modificacion HTML Carrera*/
+
+.fondo_blanco{
+    background-color: antiquewhite;
+}
+.logo__contacto{
+        width:180px;
+        padding:0 auto;
+        height:200px;
+        border: 2px black solid;
+        margin-left: 5%;
+        margin-top: 2%;
+}
+.sociales__carrera {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:14%;
+    width: 17%;
+    background-color: indianred;
+    margin-left: 80%;
+    position: absolute ;
+    top: 20%;
+    border: 2px black solid;
+  
+}
+.sociales__carrera a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 3%;
+    height: 10%;
+    margin: 2%;
+ 
+   
+}
+.buscador__contacto{
+    padding-left: 10%;
+    padding-top: 0%;
+    border:black 2px solid;
+    margin-top: 1.5%;
+    background-color: coral;
+}
+   
+.buscador__contacto li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:700;
+    padding: 5px 50px;
+  
+    }
+.buscador__contacto li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+   
+}
+/* titulos*/
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    color:rgba(0, 0, 0, 0.758);
+    font-size: 40px; 
+    font-family: 'Alfa Slab One', cursive;
+    height: 5%;
+    width:100%;
+    font-weight:400;
+   
+    
+}
+/* cerramos con un borde blanco para poder modificar a gusto  y mover*/
+h2 {
+    color:black;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    list-style: none;
+    padding-top:3%;
+}
+.video__carrera{
+    border: solid #191970 2px;
+    margin-top:1%;
+    margin-left: 25%;
+    
+    
+}
+.texto__contacto{
+    color:black;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 20px;
+
+}
+.carrera{
+  padding-top: 0%;
+}
+/*aplicamos flex al html SERVICIOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+.buscador__contacto__servicio{
+    padding-left: 10%;
+    padding:0.5%;
+    border: 2px black solid;
+    margin-top: 0.5%;
+    width: 100%;
+    
+}
+.buscador__contacto__servicio li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:700;
+    padding: 5px 50px;
+  
+    }
+.buscador__contacto__servicio li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+.titulo{
+    height: 40vh;
+    width: 60vh;
+    object-fit: cover;
+    padding: 0;
+    border: 2px black solid;
+    margin: 5%;
+}
+
+
+.titulo__flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 250vh;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top:4%;
+    background-image: url(multimedia/imagenes/celeste.jfif);
+    border: black solid 1px;
+} 
+.titulo__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    
+}
+.titulo__card2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.parrafo__servicio{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.subtitulo{
+    font-size: 40px;
+    padding: 5px;
+    padding-left: 5%;
+    margin-bottom: 3%;
+    width:100%;
+    height: 3%;
+}
+    
+.box{
+    padding-right: 20%;
+    padding-left: 15%;
+    color: black;
+   
+}
+.boxes{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+/* empezamos a trabajar en la pagina html de galeria*/
+.body__galeria{
+    background-image: url(multimedia/imagenes/fondo\ de\ oficina\ \ hd.jpg);
+    height:100%;
+    width: 100%;
+    padding-bottom: 20%;
+    background-position: center;
+    background-size: cover;
+}
+    
+.header__galeria{
+    width: 100%;
+    border: 2px double pink;
+    background-color:#D7DBDD ;
+    height: 50%;
+    border: white solid 3px;
+
+
+}
+.sociales__galeria {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:30%;
+    margin-left: 80%;
+    align-items: flex-start;
+    position:absolute ;
+    top: 20%;
+}
+.sociales__galeria a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 3%;
+    height: 10%;
+}
+.logo__galeria{
+    width:20%;
+    height: 80%;
+    margin-bottom:3%;
+}
+.buscador__galeria ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-evenly;
+    border: solid antiquewhite 5px;
+    padding: 3%;
+    margin:0 auto;
+    background-color:rgba(0, 0, 255, 0.051);
+   
+
+   
+}
+.buscador__galeria a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+   
+   
+}
+.primera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+    flex-wrap: wrap;
+   
+}
+.imagenes__galeria img{
+    border: solid 2px white;
+    height: 200px;
+    width: 250px;
+    margin: 4%;
+    object-fit: cover;
+}
+
+
+
+/*APLICAMOS GRID AL HTML CURSOS*/
+.contenedor__cursos{
+    display: grid;
+    border:white solid 2px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+
+.cursos__itemuno{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: #191970 solid 2px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cursos__itemuno iframe{
+    height: 90%;
+    width: 100%;
+}
+.cursos__itemdos{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border: white solid 1px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+
+}
+.cursos__itemtres{
+    border: #191970 solid 2px;
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end: 5;
+    background-color: darksalmon;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+.cursos__itemtres img{
+    width:100%;
+    height:100%;
+    border: white solid 2px;
+    
+  
+   
+  
+}
+.cursos__itemcuatro{
+    border: #191970 solid 2px;
+   
+    background-color: darkturquoise;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+/*PAGINA HTML GRID ALTERNATIVA PARA PRACTICA*/
+/*palabra product---banner--footer*/
+
+
+.aplicando__grid{
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 250px 250px 250px 250px  250px;
+    grid-template-rows: 250px 250px 250px 250px 250px ;
+    background-color: white;
+    margin: 0.1%;
+}
+.item{
+    border:rgba(8, 87, 109, 0.393) solid 3px;
+    background-image: url(multimedia/imagenes/cartel.jpg);
+    background-repeat:round s;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start:4 ;
+    grid-row-end:5 ;
+    
+}
+.cursos{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border:white solid 2px;
+    background-image: url(multimedia/imagenes/reclutamiento.webp);
+    padding: 10%;
+}
+.detalle{
+    grid-column-start:3 ;
+    grid-column-end:6 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+    border:white solid 2px;
+    background-image: url(multimedia/imagenes/couseling.webp);
+    background-size: cover;
+
+}
+
+
+.catedra{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+    background-color: palevioletred;
+    color: blanchedalmond;
+    padding: 5%;
+    font-size: 30px;
+    font-weight: 400;
+  
+}
+/* AGREGAMOS ANIMACION AL PARRAFO*/
+.animacion{
+    grid-column-end:  1;
+    grid-column-start: 6;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    border:double white 2px;
+}
+.animacion{
+    background-color: cadetblue;
+    font-size:0;
+    padding: 4%;
+    color:white;
+}
+.animacion span{
+    animation:  move 3s ease-in-out infinite;
+    font-size: 5rem;
+    display: inline-block;
+
+}
+
+@keyframes move {
+    0%{
+        transform: translate(-20%,0);
+    }
+    50%{
+        text-shadow: 0 25px 50px black;
+    }
+    100%{
+    transform: translate(50%, 0);
+    }
+
+}
+
+
+
+.final{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    border:white solid 3px;
+    background-image: url(multimedia/imagenes/coaching.jpg);
+    background-size: cover;
+}
+
+.dos{
+    grid-column-start:5 ;
+    grid-column-end: 6;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    border: grey solid 3px;
+    background-size: cover;
+    background-image: url(multimedia/imagenes/recurso3\ footer.jfif);
+}
+/*agregamos parametros para responsive de mobile tablet y destok*/
+@media only screen and (max-width:480px){
+ body{
+        background-color:blue;
+    }
+.magic{
+    padding: 12px;
+    
+}
+}
+@media only screen and (min-width:481px) and (max-width:960px){
+    body{
+        background-color:black;
+    }
+}
+@media only screen and (min-width:961px){
+    body{
+        background-color: white;
+    }
+}
+
+
+   
+    
+   
+
+
+
+
+
+
+
+    
+
+    
+  
+
+
+ 
+
+
+
+   
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    
