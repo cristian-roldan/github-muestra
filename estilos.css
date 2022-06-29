@@ -636,9 +636,24 @@ h2 {
         background-color: white;
     }
 }
+/*comenzando a usar la herramienta BOOSTRAP*/
+.intro{
+    background-color: black;
+  
+}
+
+.section__boot{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    border:grey
+}
+.intro-dos{
+    padding-top: 5%;
+    padding-left: 10%;
+}
 
 
-   
     
    
 

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body class="intro">
+    <form class="row g-3">
+      <div class="col-auto">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+      </div>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+      </div>
+    </form>
+    <header class="intro-dos">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Turismo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Excursiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Paisajes</a>
+            </li>
+        </ul>
+    </header>
+    <section class="section__boot">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="boostrap/bosque.jpg" class="d-block w-100" alt="bosque">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bosque Nativo del Peru</h5>
+                  <p>Peru-Lima</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="boostrap/laguna.webp" class="d-block w-100" alt="laguna">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Laguna isla de pascuas</h5>
+                  <p>Chile-Amererica del norte</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="boostrap/otono.jpg" class="d-block w-100" alt="otono">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bosque de canada</h5>
+                  <p>Pasaje the road island </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
