@@ -641,17 +641,48 @@ h2 {
     background-color: black;
   
 }
+.intro__boot{
+    color: black;
+    font-weight: 400;
+    background-size: cover;
+    padding: 10%;
+    background-image: url(multimedia/imagenes/espacio.png!d);
+    border: violet 0.5px solid;
+
+}
+
 
 .section__boot{
-    width: 100%;
-    height: 100%;
-    padding: 10%;
-    border:grey
+   margin: 10%;
+   border: 2px solid grey;
+   
 }
 .intro-dos{
-    padding-top: 5%;
-    padding-left: 10%;
+    padding-top: 10%;
+    padding-left: 30%;
+    border:black solid 1px;
+    
 }
+.intro__bootdos{
+    display: flex;
+    padding-left: 10%;
+    color: blue;
+    margin-top: 4%;
+ }
+ .turismo__argentina{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.acordeon{
+    background-color: black;
+}
+.accordionFlushExample.accordion.accordion-flush{
+    background-color: black;
+}
+
+
+
 
 
     
