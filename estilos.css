@@ -686,6 +686,17 @@ h2 {
 .placeholder-wave{
     color:white
 }
+.row{
+    padding: 10%;
+    background-color: white;
+    border: solid 2px black;
+}
+.ancor{
+    text-decoration: none;
+    color: black;
+}
+
+   
 
 
 
