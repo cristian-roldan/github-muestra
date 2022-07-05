@@ -680,6 +680,12 @@ h2 {
 .accordionFlushExample.accordion.accordion-flush{
     background-color: black;
 }
+.placeholder-glow{ 
+    color:white;
+}
+.placeholder-wave{
+    color:white
+}
 
 
 
