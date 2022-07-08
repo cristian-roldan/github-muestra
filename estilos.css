@@ -274,7 +274,7 @@ h2 {
 .buscador__contacto__servicio{
     padding-left: 10%;
     padding:0.5%;
-    border: 2px black solid;
+    
     margin-top: 0.5%;
     width: 100%;
     
@@ -690,17 +690,83 @@ h2 {
 }
 .row{
     padding: 3%;
-    background-color:#d5d5d5;
+    background-color: #b7a99b;
    
 }
 .ancor{
     text-decoration: none;
-    color:#9099a2;
+    color:#373737;
     font-size: 18px;
     font-weight: 600px;
 }
-
+.nuevo-inicio{
+    background-color: #d7cec7;
+    width: 100%;
+    border: solid 1px black;
    
+}
+.navbar{
+ margin-top: 2%;
+ border: solid 1px white;
+ padding: 5%;
+ background-color: #96858f;
+
+ 
+}
+.nav-item{
+    font-size: 20px;
+  
+  
+    
+}
+.inicio-grid{
+    display: grid;
+   
+    height:100%;
+    padding-right: 5%;
+    gap: 3px;
+    grid-template-columns: 100px 150px 150px 200px;
+    grid-template-rows:100px 150px 150px 200px ;
+   
+}
+.titulo-grid{
+    grid-column-end: 6;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+.grid-uno{
+    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url(multimedia/imagenes/foto\ 1.jpeg);
+    background-size: cover;
+    margin-left: 5%;
+   
+    
+}
+.grid-dos{ 
+    grid-column-start:4 ;
+    grid-column-end:6 ;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    margin: 5%;
+   
+  
+    
+
+}
+.grid-tres{ 
+    grid-column-start:4 ;
+    grid-column-end:6 ;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    color: #373737;
+   
+}
+
 
 
 
