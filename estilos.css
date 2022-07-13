@@ -73,8 +73,6 @@
     font-size:20px;
 }
 .sub__index{
-    color:#d5d5d5;
-    font-size: 40px; 
     font-family:sans-serif;
     height: auto;
     padding-top: 15%;
@@ -85,7 +83,7 @@
 }
 
 h2{
-    color:#d5d5d5;
+    color:black;
     font-size: 40px; 
     font-family:sans-serif;
     height: auto;
@@ -311,8 +309,7 @@ h2 {
     justify-content: space-evenly;
     width: 100%;
     margin-top:4%;
-    background-image: url(multimedia/imagenes/celeste.jfif);
-    border: black solid 1px;
+   
 } 
 .titulo__card{
     display: flex;
@@ -330,18 +327,18 @@ h2 {
     align-items: center;
 }
 
-.parrafo__servicio{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: sans-serif;
-}
 .subtitulo{
-    font-size: 40px;
+    font-size: 25px;
     padding: 5px;
     padding-left: 5%;
     margin-bottom: 3%;
+    margin-top: 5%;
     width:100%;
     height: 3%;
+    border: 2px white solid;
+    background-color:#96858f;
+    color: white;
+    text-align: center;
 }
     
 .box{
@@ -429,11 +426,17 @@ h2 {
    
 }
 .imagenes__galeria img{
-    border: solid 2px white;
+   border:2px solid white;
     height: 200px;
     width: 250px;
-    margin: 4%;
+    margin: 2%;
+    margin-left: 4%;
     object-fit: cover;
+    position: relative;
+    transition: all 300ms;
+}
+.imagenes__galeria img:hover{
+    transform: scale(1.25);
 }
 
 
@@ -500,7 +503,7 @@ h2 {
 .cursos__itemcuatro{
     border: #191970 solid 2px;
    
-    background-color: darkturquoise;
+    
     color: white;
     font-size: 20px;
     font-family: sans-serif;
@@ -721,23 +724,23 @@ h2 {
 }
 .inicio-grid{
     display: grid;
-   
     height:100%;
     padding-right: 5%;
-    gap: 3px;
-    grid-template-columns: 100px 150px 150px 200px;
-    grid-template-rows:100px 150px 150px 200px ;
-   
+    gap: 1%;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:200px 200px 200px 250px 200px;  
 }
 .titulo-grid{
-    grid-column-end: 6;
+    grid-column-end: 3;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 2;
+    text-align:left;
+    margin-top: 7%;
 
 }
 .grid-uno{
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 4;
@@ -747,8 +750,18 @@ h2 {
    
     
 }
+.titulo-grid{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: 2%;
+    margin-bottom: 6%;
+   
+
+}
 .grid-dos{ 
-    grid-column-start:4 ;
+    grid-column-start:3 ;
     grid-column-end:6 ;
     grid-row-start:2 ;
     grid-row-end: 4;
@@ -759,15 +772,39 @@ h2 {
 
 }
 .grid-tres{ 
-    grid-column-start:4 ;
+    grid-column-start:3 ;
     grid-column-end:6 ;
-    grid-row-start:2 ;
-    grid-row-end: 4;
-    color: #373737;
-   
+    grid-row-start:4 ;
+    grid-row-end: 5;
+    margin: 5%;
+    
+    
 }
-
-
+.grid-cuatro{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:4 ;
+    grid-row-end: 5;
+    background-image: url(multimedia/imagenes/18.jpg);
+    background-size: cover;
+    margin-left:5%;
+  
+}
+.logo-inicio{
+   position: relative;
+    transition: all 200ms;
+}
+.logo-inicio:hover{
+    transform: scale(1.10);
+}
+.texto{
+    border: solid white 2px;
+    margin-top: 2%;
+    padding: 3%;
+    background-color: #96858f;
+    color:black;
+    font-size: 25x;
+}
 
 
 
