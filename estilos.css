@@ -4,6 +4,9 @@
 /*color rosa viejo:#FFB6C1*/
 /*#708090 */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Langosta+Dos:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Langosta+Dos:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Langosta+Dos:ital@0;1&display=swap');
 
 *{
     margin:0%;
@@ -75,14 +78,14 @@
 .sub__index{
     font-family:sans-serif;
     height: auto;
-    padding-top: 15%;
+    padding-top: 5%;
     padding-left: 28%;
     padding-bottom: 2%;
     font-weight:400;
     
 }
 
-h2{
+h2
     color:black;
     font-size: 40px; 
     font-family:sans-serif;
@@ -92,7 +95,7 @@ h2{
     padding-bottom: 2%;
     font-weight:400;
    
-}
+
 .video{
  border:solid #6d7993 1px;
 }
@@ -244,13 +247,7 @@ h1{
     
 }
 /* cerramos con un borde blanco para poder modificar a gusto  y mover*/
-h2 {
-    color:black;
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif ;
-    list-style: none;
-    padding-top:3%;
-}
+
 .video__carrera{
     border: solid #191970 2px;
     margin-top:1%;
@@ -328,17 +325,17 @@ h2 {
 }
 
 .subtitulo{
-    font-size: 25px;
-    padding: 5px;
+    font-family: 'Lobster Two',cursiva;
+    padding: 30px;
     padding-left: 5%;
     margin-bottom: 3%;
     margin-top: 5%;
     width:100%;
     height: 3%;
     border: 2px white solid;
-    background-color:#96858f;
+    background-color: #9099a2;
     color: white;
-    text-align: center;
+    text-align: left;
 }
     
 .box{
@@ -623,7 +620,7 @@ h2 {
 }
 /*agregamos parametros para responsive de mobile tablet y destok*/
 @media only screen and (max-width:480px){
- body{
+ body {
         background-color:blue;
     }
 .magic{
@@ -632,12 +629,12 @@ h2 {
 }
 }
 @media only screen and (min-width:481px) and (max-width:960px){
-    body{
+    body {
         background-color:black;
     }
 }
 @media only screen and (min-width:961px){
-    body{
+    body {
         background-color: white;
     }
 }
@@ -804,6 +801,10 @@ h2 {
     background-color: #96858f;
     color:black;
     font-size: 25x;
+    
+}
+.final-inicio{
+  margin-top: 10%;
 }
 
 
