@@ -708,7 +708,7 @@ h1{
 .navbar{
  margin-top: 2%;
  border: solid 1px white;
- padding: 5%;
+ padding: 1%;
  background-color: #96858f;
 
  
@@ -789,7 +789,7 @@ h1{
 }
 .logo-inicio{
    position: relative;
-    transition: all 200ms;
+    transition: all 300ms;
 }
 .logo-inicio:hover{
     transform: scale(1.10);
@@ -806,6 +806,37 @@ h1{
 .final-inicio{
   margin-top: 10%;
 }
+.container-uno{
+   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(multimedia/imagenes/reunion.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 8px 12px black;
+    border-radius: 10px;
+  
+   
+}
+.container-dos{
+   color: white;
+   margin: 50%;
+   text-align: center;
+   text-shadow: 0 0 10px rgba( 0,0,0,0.9);
+}
+.four{
+    color: red;
+}
+.five{
+    color:crimson;
+    border-color: white;
+    font-weight: 600;
+}
+
+
 
 
 
