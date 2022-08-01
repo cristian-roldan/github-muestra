@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2? family=Langosta+Dos:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2? family=Langosta+Dos:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2? family=Langosta+Dos:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap');
 
 *{
     margin:0%;
@@ -823,17 +824,22 @@ h1{
 }
 .container-dos{
    color: white;
-   margin: 50%;
+   font-size: 50px;
+
    text-align: center;
-   text-shadow: 0 0 10px rgba( 0,0,0,0.9);
+   text-shadow: 3px 1px 0 black;
+   font-family: 'Cormorant SC', serif;
 }
 .four{
-    color: red;
+   font-size: 35px;
+   font-family: 'Cormorant SC', serif;
+   text-shadow: 3px 1px 0 black;
+    
 }
 .five{
-    color:crimson;
-    border-color: white;
-    font-weight: 600;
+    font-family: 'Cormorant SC', serif;
+    text-shadow: 3px 1px 0 black;
+    font-size: 35px;
 }
 
 
